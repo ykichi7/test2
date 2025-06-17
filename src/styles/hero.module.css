@@ -1,0 +1,27 @@
+.flexContainer {
+  composes: spaceBetween from "../styles/utils.module.css";
+}
+.text {
+  padding-top: calc(var(--desplay) * 0.5);
+  padding-bottom: calc(var(--desplay) * 0.7);
+}
+
+.title {
+  font-size: var(--desplay);
+  font-weight: 900;
+  letter-spacing: 0.15em;
+}
+
+.subtitle {
+  font-size: var(--small-heading2);
+}
+
+.image {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .image {
+    width: 50%;
+  }
+}

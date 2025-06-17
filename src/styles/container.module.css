@@ -1,0 +1,10 @@
+.defualt {
+  width: 92%;
+  max-width: 1152px;
+  margin: 0 auto;
+}
+
+.large {
+  composes: defualt;
+  max-width: 1200px;
+}
