@@ -8,7 +8,7 @@ import Meta from "../components/meta";
 export default function Home() {
   return (
     <Container>
-      <Meta pageTitle="ホーム" />
+      <Meta />
       <Hero title="Cube" subtitle="アウトプットしていくサイト " imageOn />
     </Container>
   );

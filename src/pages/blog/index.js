@@ -7,7 +7,7 @@ export default function Blog() {
   return (
     <>
       <Container>
-        <Meta pageTitle="ブログ" />
+        <Meta pageTitle="ブログ" pageDesc="ブログ記事一覧" />
         <Hero title="Blog" subtitle="Recent Posts" />
       </Container>
     </>
